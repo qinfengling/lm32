@@ -10,7 +10,7 @@ OBJCOPY = $(CROSS_COMPILE)objcopy
 # in case make does not have this already defined
 RM ?= rm -f
 
-LDFLAGS = -Tlinker.ld -nostdlib -lgcc
+LDFLAGS = -Tlinker.ld -nostdlib #-lgcc
 ASFLAGS += -Wa,-I,.
 
 CRT        = crt.o

@@ -11,5 +11,5 @@ void puts(char *s)
 
 void main(void)
 {
-	puts("Hello World\n");
+	puts("Hello World, 2015-02-19!\n");
 }
